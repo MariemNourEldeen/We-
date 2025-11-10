@@ -1,0 +1,457 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* start section home */
+
+header{
+    height:300vh;
+    background-image:url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     width:100%
+}
+
+article{
+    display:flex;
+    /* height:100vh;
+    */
+    width:100%;
+    
+
+    flex-wrap: wrap;
+    
+    
+}
+
+article img:hover{
+    transform: rotate(360deg);
+    transition:5s;
+    transform: scale(0.5);
+}
+.card{
+
+    padding:20px;
+     width:30%;
+    height:120px; 
+}
+.card img{
+    width:100%;
+}
+.navbar{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo{
+   color:aquamarine;
+   font-size:20px;
+}
+footer{
+    color:aqua;
+    background-color:black;
+    text-align:center;
+}
+.hero p{
+    text-align:center;
+    color:black;
+}
+
+.hero h1{
+    color:blueviolet;
+    /* background-color: bisque; */
+    text-align:center;
+}
+a:hover{
+    background-color: blue;
+}
+.hero{
+    padding:50px;
+}
+
+/* end section home */
+
+/* start regesration  */
+
+.navbar2{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo2{
+   color:blueviolet;
+   font-size:20px;
+}
+
+form{
+    padding:50px;
+    height:100vh;
+    background-image: url(../images/مدرسه\ وى.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.input1{
+    padding:13px 11px;
+    border-radius:13px;
+    display:grid;
+    grid-template-rows:13px;
+    width:300px;
+}
+
+.but1{
+border:1px solid red;
+padding:10px  ;
+margin:12px;
+background-color: blue;
+border-radius:10px;
+width:60px;
+}
+
+
+
+/* end section registeration */
+
+/* start section login */
+
+
+main{
+    background-image: url(../images/مدرسه\ وى.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar3{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo3{
+   color:blueviolet;
+   font-size:20px;
+}
+
+form{
+    padding:50px;
+    height:100vh;
+    background-image: url(../images/مدرسه\ وى.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid
+    
+}
+
+.input2{
+    padding:13px 11px;
+    border-radius:13px;
+    display:grid;
+    grid-template-rows:13px;
+    width:300px;
+}
+
+.but2{
+border:2px solid red;
+padding:10px  ;
+margin:15px;
+background-color: blue;
+border-radius:10px;
+width:100px;
+}
+
+
+
+/* end section login */
+
+/* start section booking */
+
+.navbar4{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr   ;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo4{
+   color:blueviolet;
+   font-size:20px;
+}
+.main4{
+    height: 100vh;
+}
+
+form{
+    padding:50px;
+    /* height:1vh; */
+    background-image: url(../images/مدرسه\ وى.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.input3{
+    padding:13px 11px;
+    border-radius:13px;
+    display:grid;
+    grid-template-rows:13px;
+    width:300px;
+}
+
+.but3{
+border:2px solid red;
+padding:10px  ;
+margin:15px;
+background-color: blue;
+border-radius:10px;
+width:100px;
+}
+
+textarea{
+    border-radius:10px;
+    padding:10px;
+    margin:6px;
+    width:300px;
+    background-color: bisque;
+}
+main{
+    height:100vh;
+}
+.gender-box{
+    border:2px solid red;
+    width:250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+
+}
+
+
+/* end section  booking */
+
+/* start section blog */
+
+   .navbar6{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    gap:10px;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.main5{
+    height:300vh;
+}
+.logo5{
+   color:blueviolet;
+   font-size:20px;
+}
+
+.blog{
+    text-align:center;
+    padding:40px 0;
+}
+
+ .blog{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:15px;
+    padding:40px;
+
+}
+.blog-card{
+    text-align:center;
+    border-radius:15px;
+}
+.blog-card img{
+    border-radius:50%;
+}
+
+/* end section blog */
+
+
+
+
+/* start section about */
+.navbar5{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    gap:10px;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo6{
+   color:blueviolet;
+   font-size: 20px;
+}
+.main6{
+    height: 300vh;;
+}
+
+.about-image img{
+    border-left:10px solid white;
+    padding-left:10px;
+    border-top:10px solid white;
+    padding-top:10px;
+    margin:11px;
+    margin-top:50px;
+    
+}
+
+/* end section about */
+
+
+/* start section contact */
+
+.navbar7{
+    background-color: black;
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    gap:10px;
+}
+
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.logo7{
+   color:blueviolet;
+   font-size:10px;
+}
+input{
+    border-radius: 12px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+
+}
+
+button{
+    border-radius: 13px;
+    background-color:brown;
+}
+
+.card img{
+    width:100%;
+}
+/* end section contact */
+
+
+
+ @media (min-width: 400px) and (max-width: 961px){
+    article{
+        display:flex;
+        flex-wrap:wrap;
+        
+       
+    }
+}
+
+/* @media (min-width:400px) and (max-width:820px){
+    .blog-page  .blog{
+        display:flex;
+        flex-wrap:wrap;
+
+
+
+    }
+} */
+
+
